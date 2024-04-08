@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<listeners>
+<listener class-name="com.training.listeners.TestListener">
+
+</listener>
+
+</listeners>
+
+<test name="Login">
+
+<classes>
+
+<class name="com.training.testcases.loginTest"/>
+<class name="com.training.testcases.TC1login"/>
+<class name="com.training.testcases.TC3login"/>
+<class name="com.training.testcases.TC4login"/>
+<class name="com.training.testcases.TC5login"/>
+<class name="com.training.testcases.TC6login"/>
+</classes>
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+</suite>
