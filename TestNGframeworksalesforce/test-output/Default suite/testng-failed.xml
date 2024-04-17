@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.testcases.RandomScenariostestcases">
+      <class name="com.training.testcases.AccountTabtestcases">
         <methods>
+          <include name="Editview"/>
+          <include name="teardown"/>
           <include name="beforemethod"/>
-          <include name="Blockinganeventinthecalender"/>
         </methods>
-      </class> <!-- com.training.testcases.RandomScenariostestcases -->
+      </class> <!-- com.training.testcases.AccountTabtestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

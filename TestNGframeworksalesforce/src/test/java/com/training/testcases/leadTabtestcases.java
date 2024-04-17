@@ -96,6 +96,7 @@ public void checknewbuttononleadshomeapplication() {
 	loginpage.Loginbutton();
 	lead.viewclick();
 	lead.newbutton();
+	lead.companyname();
 }
 @AfterMethod
 public void teardown() {

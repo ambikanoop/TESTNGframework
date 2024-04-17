@@ -91,9 +91,7 @@ public void Blockinaneventinthecalenderwithweeklyrecurrance() {
 	Rpage.clickontimelink();
 	Rpage.clickonsubcombutton();
 	Log.endTestCase("switching to parent window");
-
-
-  Rpage.endtime1();
+Rpage.endtime1();
   Rpage.clickonrecurring();
   Log.startTestCase("click on recurring button");
   Rpage.weeklyradiobutton();

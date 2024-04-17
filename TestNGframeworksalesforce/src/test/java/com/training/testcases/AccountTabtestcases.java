@@ -34,7 +34,7 @@ account=new Accountpage(driver);
 
 }
 @Test
-public void createAccount() {
+public void createnewAccount() {
 	Log.startTestCase("test case10 starting");
 	String username=prop.getproperty("username");
 	loginpage.enterusername(username);
@@ -42,6 +42,8 @@ public void createAccount() {
 	loginpage.enterpassword(password);
 	loginpage.Loginbutton();
 	account.Account();
+	account.clickonnewbutton();
+	account.accountname();
 }
 @Test
 public void createAccountnewview() {

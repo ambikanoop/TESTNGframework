@@ -55,7 +55,8 @@ public void todayslead() {
 public void newbutton() {
 	nwbutton.click();
 	lastname.clear();
-	lastname.sendKeys("ABCD");
+	lastname.sendKeys("ABCD");}
+public void companyname() {
 	company.clear();
 	company.sendKeys("ABCD");
 	save.click();

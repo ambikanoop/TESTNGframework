@@ -32,7 +32,7 @@ DOMConfigurator.configure("log4j.xml");
 usermenu=new  usermenupage(driver);
 }
 @Test
-public void mysetting7() {
+public void mysetting8() {
 	Log.startTestCase("displylink");
 	String username=prop.getproperty("username");
 	loginpage.enterusername(username);

@@ -5,3 +5,46 @@
 2024-04-07 13:06:17,318 INFO  [Log] ****************           -S-T-A-R-T-test case37 starting       **************** 
 2024-04-07 13:06:26,268 INFO  [Log] ***************             -E---N---D-switching to parent window         *************** 
 2024-04-07 13:07:48,069 INFO  [Log] ****************           -S-T-A-R-T-test case36 starting       **************** 
+2024-04-08 20:22:46,357 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-08 20:30:35,858 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-08 20:30:35,862 INFO  [Log] ***************             -E---N---D-enter the wrong username         *************** 
+2024-04-08 20:30:36,034 INFO  [Log] ***************             -E---N---D-enter the wrong password         *************** 
+2024-04-09 11:15:12,174 INFO  [Log] ****************           -S-T-A-R-T-test case 26 starting       **************** 
+2024-04-09 11:15:37,141 INFO  [Log] ****************           -S-T-A-R-T-test case 25 starting       **************** 
+2024-04-09 11:38:08,515 INFO  [Log] ****************           -S-T-A-R-T-test case12 starting       **************** 
+2024-04-16 20:22:59,791 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-16 20:22:59,795 INFO  [Log] ***************             -E---N---D-enter the wrong username         *************** 
+2024-04-16 20:23:00,269 INFO  [Log] ***************             -E---N---D-enter the wrong password         *************** 
+2024-04-16 20:23:04,960 INFO  [Log] ****************           -S-T-A-R-T-Login Test case started       **************** 
+2024-04-16 20:23:05,046 INFO  [Log] Succefuly enter the username 
+2024-04-16 20:23:11,277 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-16 20:23:15,516 INFO  [Log] ***************             -E---N---D-succefully logged out         *************** 
+2024-04-16 20:23:17,711 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-16 20:23:23,049 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-16 20:23:23,538 INFO  [Log] ***************             -E---N---D-forgot password text displyed          *************** 
+2024-04-16 20:23:25,495 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-16 20:23:26,141 INFO  [Log] ***************             -E---N---D-Invalidpassword test case ended         *************** 
+2024-04-17 07:42:49,645 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-17 07:42:49,649 INFO  [Log] ***************             -E---N---D-enter the wrong username         *************** 
+2024-04-17 07:42:51,268 INFO  [Log] ***************             -E---N---D-enter the wrong password         *************** 
+2024-04-17 07:42:55,064 INFO  [Log] ****************           -S-T-A-R-T-Login Test case started       **************** 
+2024-04-17 07:42:55,188 INFO  [Log] Succefuly enter the username 
+2024-04-17 07:43:38,994 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:43:43,675 INFO  [Log] ***************             -E---N---D-succefully logged out         *************** 
+2024-04-17 07:43:45,637 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-17 07:43:51,378 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:43:52,001 INFO  [Log] ***************             -E---N---D-forgot password text displyed          *************** 
+2024-04-17 07:43:53,836 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:43:54,513 INFO  [Log] ***************             -E---N---D-Invalidpassword test case ended         *************** 
+2024-04-17 07:58:46,176 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-17 07:58:46,193 INFO  [Log] ***************             -E---N---D-enter the wrong username         *************** 
+2024-04-17 07:58:46,535 INFO  [Log] ***************             -E---N---D-enter the wrong password         *************** 
+2024-04-17 07:58:48,876 INFO  [Log] ****************           -S-T-A-R-T-Login Test case started       **************** 
+2024-04-17 07:58:49,047 INFO  [Log] Succefuly enter the username 
+2024-04-17 07:58:54,763 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:58:59,914 INFO  [Log] ***************             -E---N---D-succefully logged out         *************** 
+2024-04-17 07:59:01,918 INFO  [Log] ****************           -S-T-A-R-T-usernamelable click       **************** 
+2024-04-17 07:59:07,827 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:59:08,259 INFO  [Log] ***************             -E---N---D-forgot password text displyed          *************** 
+2024-04-17 07:59:09,916 INFO  [Log] ****************           -S-T-A-R-T-password field empty test       **************** 
+2024-04-17 07:59:10,442 INFO  [Log] ***************             -E---N---D-Invalidpassword test case ended         *************** 

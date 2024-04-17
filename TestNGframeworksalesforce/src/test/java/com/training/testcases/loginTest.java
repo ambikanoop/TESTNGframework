@@ -77,7 +77,7 @@ public void Remembercheckbox() {
 	String actual="Ambika Abcd";
 	Assert.assertEquals(actual, exp);
 	loginpage.logout();
-	Log.endTestCase("succefully logout");
+	Log.endTestCase("succefully logged out");
 }
 @Test
 public void forgotpassword() {
@@ -91,7 +91,7 @@ public void forgotpassword() {
 	Log.endTestCase("forgot password text displyed ");
 }
 @Test
-public void usernamelableclick() {
+public void clickonusername() {
 	Log.startTestCase("usernamelable click");
 	String username=prop.getproperty("username");
 	loginpage.enterusername(username);
@@ -104,6 +104,20 @@ public void usernamelableclick() {
 	String exp=loginpage.userlablename();
 	String actual="Ambika Abcd";
 	Assert.assertEquals(actual, exp);
+}
+@Test
+public void Invaliusernameandpassword() {
+	Log.startTestCase("usernamelable click");
+	String username=prop.getproperty("Wusername");
+	Log.endTestCase("enter the wrong username");
+	loginpage.enterusername(username);
+	String password=prop.getproperty("Wpassword");
+	Log.endTestCase("enter the wrong password");
+	loginpage.enterpassword(password);
+	loginpage.Loginbutton();
+	String str=loginpage.errormsg();
+	String actual="Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
+	Assert.assertEquals(str, actual);
 }
 
 @AfterMethod

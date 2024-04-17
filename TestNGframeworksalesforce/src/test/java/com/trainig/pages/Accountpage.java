@@ -96,8 +96,10 @@ public class Accountpage extends basePage{
 	}
 	public void Account() {
 		waitforelements(Account);
-		Account.click();
-		newbutton.click();
+		Account.click();}
+	public void clickonnewbutton() {
+		newbutton.click();}
+	public void accountname() {
 		Accountname.sendKeys("AAA1");
 		selectByText(typedropdown,"Technology Partner");
 		selectByText(customerprioritydropdwon,"High");
